@@ -17,7 +17,6 @@ function App() {
             `${api.base}?apikey=${api.key}&s=${title}`
         );
 
-        // return data;
         setMovies(data.data.Search);
     };
 
